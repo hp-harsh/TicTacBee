@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtEmail"
+            style="@style/UIEditText"
+            android:hint="@string/email_id"
+            android:inputType="textEmailAddress" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtPassword"
+            style="@style/UIEditText"
+            android:layout_marginTop="@dimen/size_5"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtForgotPassword"
+            style="@style/UITextView"
+            android:padding="@dimen/size_5"
+            android:text="@string/forgot_password" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            style="@style/UIButton"
+            android:layout_marginTop="@dimen/size_16"
+            android:text="@string/lets_go" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtNewBee"
+            style="@style/UITextView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_16"
+            android:padding="@dimen/size_5"
+            android:text="@string/new_bee_register_here" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/size_10"
+        android:layout_weight="1"
+        android:background="@drawable/view_round_corner_border_black"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <hp.harsh.tictacbee.customviews.SquareImageView
+                android:id="@+id/imgUserAvtar"
+                android:layout_width="@dimen/size_60"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/size_10"
+                android:background="@drawable/view_user_border_white"
+                android:padding="@dimen/size_10"
+                android:src="@drawable/ic_avtar_16" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtUserId"
+                style="@style/UITextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/size_10"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="25"
+                android:padding="@dimen/size_3"
+                android:text="user_avtar_123"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/view_circle_border_white">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgChat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/size_5"
+                    android:src="@drawable/ic_chat">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <hp.harsh.tictacbee.customviews.SquareImageView
+                android:id="@+id/imgOpponentAvtar"
+                android:layout_width="@dimen/size_60"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/size_10"
+                android:background="@drawable/view_user_border_white"
+                android:padding="@dimen/size_10"
+                android:src="@drawable/ic_avtar_16" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtOpponentId"
+                style="@style/UITextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/size_10"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="25"
+                android:padding="@dimen/size_3"
+                android:text="user_avtar_123"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="@dimen/size_10"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="@dimen/size_5">
+
+            <FrameLayout
+                android:id="@+id/frameBoard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/board_7" />
+
+                <LinearLayout
+                    android:id="@+id/lnrGameBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@color/black_alpha_25"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/GameBoardRowLayout">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img1"
+                            style="@style/GameBoardRowItem"
+                            android:tag="1" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img2"
+                            style="@style/GameBoardRowItem"
+                            android:tag="2" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img3"
+                            style="@style/GameBoardRowItem"
+                            android:tag="3" />
+
+                    </LinearLayout>
+
+                    <View style="@style/GameBoardHorizontalDivider" />
+
+                    <LinearLayout style="@style/GameBoardRowLayout">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img4"
+                            style="@style/GameBoardRowItem"
+                            android:tag="4" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img5"
+                            style="@style/GameBoardRowItem"
+                            android:tag="5" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img6"
+                            style="@style/GameBoardRowItem"
+                            android:tag="6" />
+
+                    </LinearLayout>
+
+                    <View style="@style/GameBoardHorizontalDivider" />
+
+                    <LinearLayout style="@style/GameBoardRowLayout">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img7"
+                            style="@style/GameBoardRowItem"
+                            android:tag="7" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img8"
+                            style="@style/GameBoardRowItem"
+                            android:tag="8" />
+
+                        <View style="@style/GameBoardVerticalDivider" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/img9"
+                            style="@style/GameBoardRowItem"
+                            android:tag="9" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/frameEmptyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:elevation="@dimen/size_10"/>
+    </FrameLayout>
+
+</LinearLayout>

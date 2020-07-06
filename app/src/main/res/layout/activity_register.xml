@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".activities.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtUsername"
+                style="@style/UIEditText"
+                android:hint="@string/username"
+                android:inputType="textPersonName|textCapWords" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtUserId"
+                style="@style/UIEditText"
+                android:layout_marginTop="@dimen/size_5"
+                android:hint="@string/user_id"
+                android:inputType="text" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtEmail"
+                style="@style/UIEditText"
+                android:layout_marginTop="@dimen/size_5"
+                android:hint="@string/email_id"
+                android:inputType="textEmailAddress" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtPassword"
+                style="@style/UIEditText"
+                android:layout_marginTop="@dimen/size_5"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRegister"
+                style="@style/UIButton"
+                android:layout_marginTop="@dimen/size_16"
+                android:text="@string/register_as_a_bee" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtAlreadyBee"
+                style="@style/UITextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/size_16"
+                android:padding="@dimen/size_5"
+                android:text="@string/already_bee_login_here" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

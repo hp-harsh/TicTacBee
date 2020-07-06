@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <FrameLayout
+        android:id="@+id/emptyView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/size_10"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:padding="@dimen/size_10"
+        android:layout_margin="@dimen/size_10"
+        android:background="@drawable/view_round_corner_border_black">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/edtMessage">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtChatData"
+                android:layout_gravity="center"
+                style="@style/UITextView.TrophyText"
+                android:text="@string/no_chat_history"
+                android:layout_margin="@dimen/size_10"
+                android:visibility="visible"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listChat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_16"
+            android:textColor="@color/black"
+            android:background="@drawable/view_round_corner_border_white"
+            android:hint="@string/type_message"
+            android:layout_alignRight="@id/imgSend"
+            android:layout_alignTop="@+id/imgSend"
+            android:paddingLeft="@dimen/size_10"
+            android:paddingRight="@dimen/size_48"
+            android:layout_alignParentBottom="true"
+            android:lines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/size_2"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imgSend"
+            android:layout_width="@dimen/size_48"
+            android:layout_height="@dimen/size_48"
+            android:src="@drawable/ic_send"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

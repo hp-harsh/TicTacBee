@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/black_alpha_60"
+        android:layout_margin="@dimen/size_20"
+        android:padding="@dimen/size_20">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtSearchById"
+                style="@style/UIEditText.UserProfile"
+                android:hint="@string/search_by_id"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:paddingRight="@dimen/size_48"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/size_10"
+                android:src="@drawable/ic_search" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtNoData"
+                android:layout_gravity="center"
+                style="@style/UITextView.TrophyText"
+                android:text="@string/no_data_found"
+                android:layout_margin="@dimen/size_10"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/searchRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/size_10"
+                android:layout_marginTop="@dimen/size_10"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

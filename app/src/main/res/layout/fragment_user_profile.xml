@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:padding="@dimen/size_15"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black_alpha_60"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgUserAvtar"
+            android:layout_width="@dimen/size_150"
+            android:layout_height="@dimen/size_150"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/size_20"
+            android:background="@drawable/view_trophy_border_golden"
+            android:padding="@dimen/size_10"
+            android:src="@drawable/ic_avtar_16" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtUserId"
+            style="@style/UITextView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/size_20"
+            android:maxLength="25"
+            android:padding="@dimen/size_3"
+            android:text="user_avtar_123"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="@dimen/size_15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtEmail"
+                style="@style/UIEditText.UserProfile"
+                android:enabled="false"
+                android:hint="@string/email_id"
+                android:inputType="textEmailAddress" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtUsername"
+                style="@style/UIEditText.UserProfile"
+                android:layout_marginTop="@dimen/size_5"
+                android:hint="@string/username"
+                android:inputType="textPersonName|textCapWords" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnUpdateProfile"
+                style="@style/UIButton.UserProfile"
+                android:layout_marginTop="@dimen/size_5"
+                android:text="@string/update_my_bee" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtOldPassword"
+                style="@style/UIEditText.UserProfile"
+                android:layout_marginTop="@dimen/size_15"
+                android:hint="@string/old_password"
+                android:inputType="textPassword" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edtNewPassword"
+                style="@style/UIEditText.UserProfile"
+                android:layout_marginTop="@dimen/size_5"
+                android:hint="@string/new_password"
+                android:inputType="textPassword" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnUpdatePassword"
+                style="@style/UIButton.UserProfile"
+                android:layout_marginTop="@dimen/size_5"
+                android:text="@string/update_bee_password" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TicTacBee</string>
+
+    <string name="splash_name">Tic Tac Bee</string>
+
+    <!--Toast messages-->
+    <string name="toast_no_internet">互联网不可用</string>
+    <string name="toast_press_to_close">再按一次退出应用</string>
+    <string name="toast_login_successful">成功登录</string>
+    <string name="toast_login_failed">登录错误。请再试一遍</string>
+    <string name="toast_register_successful">成功注册</string>
+    <string name="toast_register_failed">注册错误。请再试一遍</string>
+    <string name="toast_userid_not_available">用户ID不可用。请选择一个新的</string>
+    <string name="toast_reset_email_sent_successful">重置密码链接已发送</string>
+    <string name="toast_reset_email_sent_failed">发送重置密码链接时出错。请再试一遍</string>
+    <string name="toast_logout_successful">成功注销</string>
+    <string name="toast_user_profile_updated">成功更新</string>
+    <string name="toast_user_profile_update_failed">个人资料更新错误</string>
+    <string name="toast_user_password_updated">密码更新成功</string>
+    <string name="toast_user_password_update_failed">密码更新错误</string>
+    <string name="toast_user_old_password_failed">验证失败</string>
+    <string name="toast_no_user_found">找不到任何蜜蜂</string>
+    <string name="toast_error_sending_invitation">发送邀请时出错</string>
+    <string name="toast_already_sent_invitation_to_bee">已发送邀请给相同或其他蜜蜂</string>
+    <string name="toast_already_have_invitation_to_receiver">对手蜂已经有其他邀请或正在与其他蜂一起玩。请稍后再试</string>
+    <string name="toast_invitation_sent">邀请已发送。请等待回复</string>
+    <string name="toast_chat_not_initiated">聊天仅在接受游戏邀请时可用</string>
+    <string name="toast_play_alone_bee1_win">蜜蜂1赢得比赛</string>
+    <string name="toast_play_alone_bee2_win">蜜蜂2赢得比赛</string>
+    <string name="toast_play_with_app_you_win">你赢了比赛</string>
+    <string name="toast_play_with_app_win">应用赢得比赛</string>
+    <string name="toast_play_draw">它的平局</string>
+    <string name="toast_email_format_wrong">请验证电子邮件ID</string>
+    <string name="toast_password_format_wrong">密码必须介于8到20个字符之间</string>
+    <string name="toast_username_format_wrong">用户名必须介于6到20个字符之间</string>
+    <string name="toast_user_id_length_wrong">用户ID必须是唯一的，且介于4到15个字符之间</string>
+    <string name="toast_user_id_format_wrong">用户ID仅包含字母数字和下划线</string>
+    <string name="toast_user_id_already_used">用户ID不可用</string>
+    <string name="toast_opponent_turn">对手转</string>
+    <string name="toast_you_win">你赢了比赛</string>
+    <string name="toast_opponent_win">对手蜜蜂赢得比赛</string>
+    <string name="toast_game_start">游戏开始</string>
+
+    <!--Alert Dialog-->
+    <string name="alert_quit_message">你想退出游戏吗？您不会再次加入此会话。</string>
+    <string name="alert_positive_button_quit">退出</string>
+    <string name="alert_negative_button_continue_game">继续游戏</string>
+    <string name="alert_quit_game_title">退出游戏？</string>
+    <string name="alert_quit_game_opponent_message">对手有相当的比赛。您不能播放更长的时间。</string>
+    <string name="alert_positive_button_opponent_quit_game_">退出游戏</string>
+    <string name="alert_has_declined_game">对手已拒绝比赛</string>
+
+    <!--No Internet Connection-->
+    <string name="no_internet_connection_message">互联网连接速度慢或没有。\ n请检查您的互联网设置</string>
+
+    <!--Login-->
+    <string name="email_id">电子邮件ID</string>
+    <string name="password">密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="lets_go">我们走吧</string>
+    <string name="forgot_password"><u>忘记密码</u></string>
+    <string name="new_bee_register_here"><u>新蜜蜂？在这里注册</u></string>
+
+    <!--Register-->
+    <string name="username">用户名</string>
+    <string name="user_id">用户身份</string>
+    <string name="register_as_a_bee">注册为蜜蜂</string>
+    <string name="already_bee_login_here"><u>已经是蜜蜂了？在此登录</u></string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password_info">输入与此应用程序关联的电子邮件，然后\ n我们会向您发送所有说明以重置密码</string>
+    <string name="reset_password">重设密码</string>
+    <string name="remembered_password_login_here"><u>记住密码？在此登录</u></string>
+
+    <!--Home-->
+    <string name="play_with_bee">和蜜蜂一起玩</string>
+    <string name="play_with_app">玩应用程式</string>
+    <string name="play_alone">独自玩</string>
+
+    <!--Home-->
+    <string name="update_my_bee">更新我的蜜蜂</string>
+    <string name="update_bee_password">更新蜜蜂密码</string>
+
+    <!--Award-->
+    <string name="trophy_range_1">1 - 10</string>
+    <string name="trophy_range_2">11 - 25</string>
+    <string name="trophy_range_3">26 - 50</string>
+    <string name="trophy_range_4">51 - 100</string>
+    <string name="trophy_range_5">101 - 200</string>
+    <string name="trophy_range_6">201 - 300</string>
+    <string name="trophy_range_7">301 - 500</string>
+    <string name="trophy_range_8">&gt;= 501</string>
+
+    <!--Settings-->
+    <string name="game_character">游戏角色</string>
+    <string name="board_background">板背景</string>
+    <string name="preferred_language">首选语言</string>
+
+    <!--Invitation-->
+    <string name="request">请求</string>
+    <string name="invitation">邀请函</string>
+
+    <!--Search-->
+    <string name="search_by_id">Search By Bee Id</string>
+    <string name="no_data_found">按蜜蜂ID搜索</string>
+
+    <!--Invitation-->
+    <string name="no_invitation_received">没有收到邀请</string>
+
+    <!--Invitation-->
+    <string name="you">（您）</string>
+    <string name="app">应用</string>
+
+    <!--Chat-->
+    <string name="type_message">输入讯息</string>
+    <string name="no_chat_history">尚无对话</string>
+
+    <!--Play-->
+    <string name="bee1">蜜蜂1</string>
+    <string name="bee2">蜜蜂2</string>
+
+</resources>

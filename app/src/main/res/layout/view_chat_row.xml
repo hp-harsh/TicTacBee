@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/size_2">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view_round_corner_border_sender"
+        android:paddingLeft="@dimen/size_12"
+        android:paddingRight="@dimen/size_12"
+        android:paddingTop="@dimen/size_8"
+        android:paddingBottom="@dimen/size_8"
+        android:text="Hi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_12"/>
+
+</LinearLayout>

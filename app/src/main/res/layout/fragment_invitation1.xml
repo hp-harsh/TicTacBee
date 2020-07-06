@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="@dimen/size_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_alpha_60"
+        android:layout_margin="@dimen/size_10">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTitle"
+            style="@style/UITextView.TrophyText"
+            android:text="@string/invitation"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="false"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/black_alpha_60"
+            android:padding="@dimen/size_10"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtTitle">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtNoData"
+                android:layout_gravity="center"
+                style="@style/UITextView.TrophyText"
+                android:text="@string/no_invitation_received"
+                android:layout_margin="@dimen/size_10"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/lnrInvitationUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/view_user_border_golden"
+                android:padding="@dimen/size_16"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgAvtar"
+                    android:layout_width="@dimen/size_100"
+                    android:layout_height="@dimen/size_100"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_avtar_16"
+                    android:background="@drawable/view_user_border_white"
+                    android:padding="@dimen/size_10"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtBeeName"
+                    style="@style/UISettingText"
+                    android:text="user_123"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgReject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_10"
+                        android:src="@drawable/ic_cancel_red"
+                        android:layout_margin="@dimen/size_10"
+                        android:background="@drawable/view_circle_border_white"/>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgAccept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_10"
+                        android:src="@drawable/ic_check_green"
+                        android:background="@drawable/view_circle_border_white"
+                        android:layout_margin="@dimen/size_10"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

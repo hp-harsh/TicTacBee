@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">TicTacBee</string>
+
+    <string name="splash_name">Tic Tac Bee</string>
+
+    <!--Toast messages-->
+    <string name="toast_no_internet">इंटरनेट उपलब्ध नहीं है</string>
+    <string name="toast_press_to_close">ऐप से बाहर निकलने के लिए फिर से दबाएं</string>
+    <string name="toast_login_successful">सफलतापूर्वक लॉग इन किया</string>
+    <string name="toast_login_failed">लॉगिन में त्रुटि। कृपया पुन: प्रयास करें</string>
+    <string name="toast_register_successful">पंजीकरण सफलतापूर्वक हो गया है</string>
+    <string name="toast_register_failed">पंजीकरण में त्रुटि। कृपया पुन: प्रयास करें</string>
+    <string name="toast_userid_not_available">उपयोगकर्ता आईडी उपलब्ध नहीं है। कृपया नए का चयन करें</string>
+    <string name="toast_reset_email_sent_successful">रीसेट पासवर्ड लिंक भेज दिया गया है</string>
+    <string name="toast_reset_email_sent_failed">रीसेट पासवर्ड लिंक भेजने में त्रुटि। कृपया पुन: प्रयास करें</string>
+    <string name="toast_logout_successful">सफलतापूर्वक लॉग आउट किया गया</string>
+    <string name="toast_user_profile_updated">सफलतापूर्वक उत्परिवर्तित</string>
+    <string name="toast_user_profile_update_failed">प्रोफ़ाइल अपडेट में त्रुटि</string>
+    <string name="toast_user_password_updated">सफलतापूर्वक पासवर्ड अपडेट किया गया</string>
+    <string name="toast_user_password_update_failed">पासवर्ड अपडेट करने में त्रुटि</string>
+    <string name="toast_user_old_password_failed">प्रमाणीकरण विफल हो गया</string>
+    <string name="toast_no_user_found">कोई मधुमक्खी नहीं मिली</string>
+    <string name="toast_error_sending_invitation">आमंत्रण भेजने में त्रुटि</string>
+    <string name="toast_already_sent_invitation_to_bee">पहले से ही उसी या अन्य मधुमक्खी को निमंत्रण भेजा जाता है</string>
+    <string name="toast_already_have_invitation_to_receiver">विपक्षी मधुमक्खी के पास पहले से ही अन्य निमंत्रण है या अन्य मधुमक्खी के साथ खेल रहा है। बाद में पुन: प्रयास करें</string>
+    <string name="toast_invitation_sent">निमंत्रण भेजा गया। कृपया प्रतिक्रिया के लिए प्रतीक्षा करें</string>
+    <string name="toast_chat_not_initiated">चैट केवल तभी उपलब्ध है जब गेम आमंत्रण स्वीकार किया जाएगा</string>
+    <string name="toast_play_alone_bee1_win">बी 1 खेल जीतता है</string>
+    <string name="toast_play_alone_bee2_win">बी 2 खेल जीतता है</string>
+    <string name="toast_play_with_app_you_win">आप खेल जीतते हैं</string>
+    <string name="toast_play_with_app_win">ऐप गेम जीतता है</string>
+    <string name="toast_play_draw">इसका ड्रा रहा</string>
+    <string name="toast_email_format_wrong">कृपया ईमेल आईडी सत्यापित करें</string>
+    <string name="toast_password_format_wrong">पासवर्ड 8 से 20 अक्षरों के बीच होना चाहिए</string>
+    <string name="toast_username_format_wrong">उपयोगकर्ता नाम 6 से 20 अक्षरों के बीच होना चाहिए</string>
+    <string name="toast_user_id_length_wrong">यूजर आईडी अद्वितीय और 4 से 15 अक्षरों के बीच होनी चाहिए</string>
+    <string name="toast_user_id_format_wrong">यूजर आईडी में केवल अल्फ़ान्यूमेरिक और अंडरस्कोर होता है</string>
+    <string name="toast_user_id_already_used">उपयोगकर्ता आईडी उपलब्ध नहीं है</string>
+    <string name="toast_opponent_turn">यह प्रतिद्वंद्वी की बारी है</string>
+    <string name="toast_you_win">आप खेल जीतते हैं</string>
+    <string name="toast_opponent_win">विरोधी बी खेल जीतते हैं</string>
+    <string name="toast_game_start">खेल शुरू</string>
+
+    <!--Alert Dialog-->
+    <string name="alert_quit_message">क्या आप खेल छोड़ना चाहते हैं? आप इस सत्र को फिर से शामिल नहीं करेंगे।</string>
+    <string name="alert_positive_button_quit">छोड़ना</string>
+    <string name="alert_negative_button_continue_game">गेम जारी रखें</string>
+    <string name="alert_quit_game_title">खेल समाप्त करें?</string>
+    <string name="alert_quit_game_opponent_message">विपक्षी ने खेल को छोड़ दिया है। आप अधिक समय तक नहीं खेल सकते।</string>
+    <string name="alert_positive_button_opponent_quit_game_">खेल समाप्त करें</string>
+    <string name="alert_has_declined_game">विपक्षी ने खेल को अस्वीकार कर दिया है</string>
+
+    <!--No Internet Connection-->
+    <string name="no_internet_connection_message">धीमा या कोई इंटरनेट कनेक्शन नहीं।\nकृपया अपनी इंटरनेट सेटिंग जांचें</string>
+    
+    <!--Login-->
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="password">कुंजिका</string>
+    <string name="old_password">पुराना पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="lets_go">चलो चलते हैं</string>
+    <string name="forgot_password"><u>पासवर्ड भूल गए?</u></string>
+    <string name="new_bee_register_here"><u>नया बी? यहां रजिस्टर करें</u></string>
+
+    <!--Register-->
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="user_id">यूज़र आईडी</string>
+    <string name="register_as_a_bee">बी के रूप में पंजीकरण करें</string>
+    <string name="already_bee_login_here"><u>पहले से ही एक बी? यहां लॉगिन करें</u></string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password_info">इस ऐप के साथ ईमेल सहयोगी दर्ज करें और हम आपको पासवर्ड रीसेट करने के लिए सभी निर्देश भेज देंगे</string>
+    <string name="reset_password">पासवर्ड रीसेट</string>
+    <string name="remembered_password_login_here"><u>पासवर्ड याद रखें? यहां लॉगिन करें</u></string>
+
+    <!--Home-->
+    <string name="play_with_bee">बी के साथ खेलो</string>
+    <string name="play_with_app">ऐप के साथ खेलो</string>
+    <string name="play_alone">अकेले खेलें</string>
+
+    <!--Home-->
+    <string name="update_my_bee">अपडेट माय बी</string>
+    <string name="update_bee_password">मधुमक्खी का पासवर्ड अपडेट करें</string>
+
+    <!--Award-->
+    <string name="trophy_range_1">1 - 10</string>
+    <string name="trophy_range_2">11 - 25</string>
+    <string name="trophy_range_3">26 - 50</string>
+    <string name="trophy_range_4">51 - 100</string>
+    <string name="trophy_range_5">101 - 200</string>
+    <string name="trophy_range_6">201 - 300</string>
+    <string name="trophy_range_7">301 - 500</string>
+    <string name="trophy_range_8">&gt;= 501</string>
+
+    <!--Settings-->
+    <string name="game_character">खेल चरित्र</string>
+    <string name="board_background">बोर्ड की पृष्ठभूमि</string>
+    <string name="preferred_language">पसंदीदा भाषा</string>
+
+    <!--Invitation-->
+    <string name="request">निवेदन</string>
+    <string name="invitation">निमंत्रण</string>
+
+    <!--Search-->
+    <string name="search_by_id">बी आईडी द्वारा खोजें</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+
+    <!--Invitation-->
+    <string name="no_invitation_received">कोई आमंत्रण नहीं मिला</string>
+
+    <!--Invitation-->
+    <string name="you">(आप)</string>
+    <string name="app">ऐप</string>
+
+    <!--Chat-->
+    <string name="type_message">संदेश टाइप करें</string>
+    <string name="no_chat_history">अभी तक कोई बातचीत नहीं</string>
+
+    <!--Play-->
+    <string name="bee1">मधुमक्खी 1</string>
+    <string name="bee2">मधुमक्खी 2</string>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TicTacBee</string>
+
+    <string name="splash_name">Tic Tac Bee</string>
+
+    <!--Toast messages-->
+    <string name="toast_no_internet">Internet not available</string>
+    <string name="toast_press_to_close">Press again to exit app</string>
+    <string name="toast_login_successful">Successfully Logged In</string>
+    <string name="toast_login_failed">Error in login. Please try again</string>
+    <string name="toast_register_successful">Successfully Registered</string>
+    <string name="toast_register_failed">Error in registration. Please try again</string>
+    <string name="toast_userid_not_available">User id not available. Please select new one</string>
+    <string name="toast_reset_email_sent_successful">Reset password link has been sent</string>
+    <string name="toast_reset_email_sent_failed">Error sending reset password link. Please try again</string>
+    <string name="toast_logout_successful">Successfully Logged Out</string>
+    <string name="toast_user_profile_updated">Successfully Updated</string>
+    <string name="toast_user_profile_update_failed">Error in profile update</string>
+    <string name="toast_user_password_updated">Successfully Password updated</string>
+    <string name="toast_user_password_update_failed">Error in password update</string>
+    <string name="toast_user_old_password_failed">Authentication Failed</string>
+    <string name="toast_no_user_found">No any bee found</string>
+    <string name="toast_error_sending_invitation">Error sending invitation</string>
+    <string name="toast_already_sent_invitation_to_bee">Already sent invitation to same or other Bee</string>
+    <string name="toast_already_have_invitation_to_receiver">Opponent Bee already has other invitation or is playing with other Bee. Please try again later</string>
+    <string name="toast_invitation_sent">Invitation sent. Please wait for response</string>
+    <string name="toast_chat_not_initiated">Chat is only available when game invitation will be accepted</string>
+    <string name="toast_play_alone_bee1_win">Bee 1 wins the game</string>
+    <string name="toast_play_alone_bee2_win">Bee 2 wins the game</string>
+    <string name="toast_play_with_app_you_win">You win the game</string>
+    <string name="toast_play_with_app_win">App wins the game</string>
+    <string name="toast_play_draw">It\'s draw</string>
+    <string name="toast_email_format_wrong">Please verify email id</string>
+    <string name="toast_password_format_wrong">Password must be between 8 to 20 characters</string>
+    <string name="toast_username_format_wrong">Username must be between 6 to 20 characters</string>
+    <string name="toast_user_id_length_wrong">User id must be unique and between 4 to 15 characters</string>
+    <string name="toast_user_id_format_wrong">User id only contains alphanumeric and underscore</string>
+    <string name="toast_user_id_already_used">User id not available</string>
+    <string name="toast_opponent_turn">It\'s opponent turn</string>
+    <string name="toast_you_win">You win the game</string>
+    <string name="toast_opponent_win">Opponent Bee win the game</string>
+    <string name="toast_game_start">Game start</string>
+
+    <!--Alert Dialog-->
+    <string name="alert_quit_message">Do you want to quit game? You will not rejoin this session again.</string>
+    <string name="alert_positive_button_quit">Quit</string>
+    <string name="alert_negative_button_continue_game">Continue Game</string>
+    <string name="alert_quit_game_title">Quit Game?</string>
+    <string name="alert_quit_game_opponent_message">Opponent has quited game. You cannot play longer.</string>
+    <string name="alert_positive_button_opponent_quit_game_">Quit Game</string>
+    <string name="alert_has_declined_game">Opponent has declined game</string>
+
+    <!--No Internet Connection-->
+    <string name="no_internet_connection_message">Slow or no internet connection.\nPlease check your internet settings</string>
+
+    <!--Login-->
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="lets_go">Let\'s Go</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="new_bee_register_here"><u>New Bee? Register Here</u></string>
+
+    <!--Register-->
+    <string name="username">Username</string>
+    <string name="user_id">User Id</string>
+    <string name="register_as_a_bee">Register as a Bee</string>
+    <string name="already_bee_login_here"><u>Already a Bee? Login Here</u></string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password_info">Enter email associate with this app and \nwe\'ll send you all the instruction to reset password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="remembered_password_login_here"><u>Remember Password? Login Here</u></string>
+
+    <!--Home-->
+    <string name="play_with_bee">Play With Bee</string>
+    <string name="play_with_app">Play With App</string>
+    <string name="play_alone">Play Alone</string>
+
+    <!--Home-->
+    <string name="update_my_bee">Update My Bee</string>
+    <string name="update_bee_password">Update Bee Password</string>
+
+    <!--Award-->
+    <string name="trophy_range_1">1 - 10</string>
+    <string name="trophy_range_2">11 - 25</string>
+    <string name="trophy_range_3">26 - 50</string>
+    <string name="trophy_range_4">51 - 100</string>
+    <string name="trophy_range_5">101 - 200</string>
+    <string name="trophy_range_6">201 - 300</string>
+    <string name="trophy_range_7">301 - 500</string>
+    <string name="trophy_range_8">&gt;= 501</string>
+
+    <!--Settings-->
+    <string name="game_character">Game Character</string>
+    <string name="board_background">Board Background</string>
+    <string name="preferred_language">Preferred Language</string>
+
+    <!--Invitation-->
+    <string name="request">Request</string>
+    <string name="invitation">Invitation</string>
+
+    <!--Search-->
+    <string name="search_by_id">Search By Bee Id</string>
+    <string name="no_data_found">No data found</string>
+
+    <!--Invitation-->
+    <string name="no_invitation_received">No invitation received</string>
+
+    <!--Invitation-->
+    <string name="you">(You)</string>
+    <string name="app">App</string>
+
+    <!--Chat-->
+    <string name="type_message">Type message</string>
+    <string name="no_chat_history">No conversation yet</string>
+
+    <!--Play-->
+    <string name="bee1">Bee 1</string>
+    <string name="bee2">Bee 2</string>
+
+</resources>

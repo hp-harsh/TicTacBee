@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:padding="@dimen/size_10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+            <RelativeLayout style="@style/SettingView" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/txtGameCharacter">
+
+                    <hp.harsh.tictacbee.customviews.SquareImageView
+                        android:layout_width="@dimen/size_100"
+                        android:id="@+id/imgGameCharacter"
+                        style="@style/TrophyImage"
+                        android:src="@drawable/ic_char_0"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:background="@drawable/view_trophy_border_golden">
+
+                    </hp.harsh.tictacbee.customviews.SquareImageView>
+
+                </FrameLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtGameCharacter"
+                    style="@style/UITextView.TrophyText"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/game_character" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/SettingView">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/txtBoardBg">
+
+                <hp.harsh.tictacbee.customviews.SquareImageView
+                    android:layout_width="@dimen/size_100"
+                    android:id="@+id/imgGameBoard"
+                    style="@style/TrophyImage"
+                    android:src="@drawable/board_1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/view_trophy_border_golden"
+                    android:padding="@dimen/size_5"
+                    android:scaleType="fitXY">
+
+                </hp.harsh.tictacbee.customviews.SquareImageView>
+                </FrameLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtBoardBg"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/board_background"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:background="@color/black_alpha_60"
+            android:layout_margin="@dimen/size_10">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_gravity="center_horizontal"
+                style="@style/UITextView.TrophyText"
+                android:text="@string/preferred_language"
+                android:layout_margin="@dimen/size_15"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/size_15">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtEnglish"
+                        style="@style/UISettingText"
+                        android:text="English"
+                        android:drawableRight="@drawable/ic_check_white"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtFrench"
+                        style="@style/UISettingText"
+                        android:text="Bonjour"
+                        android:layout_marginTop="@dimen/size_5"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtHindi"
+                        style="@style/UISettingText"
+                        android:text="हैलो"
+                        android:layout_marginTop="@dimen/size_5"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtChinese"
+                        style="@style/UISettingText"
+                        android:text="你好"
+                        android:layout_marginTop="@dimen/size_5"/>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

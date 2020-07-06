@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Application color-->
+    <color name="colorPrimary">#171717</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="colorAccent">#171717</color>
+    <color name="default_bg">#EAEAEA</color>
+    <color name="selected_bg">#A7A7A7</color>
+    <color name="tab_selected_bg">#171717</color>
+    <color name="tab_unselected_bg">#B76F6C6C</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="golden">#F5B933</color>
+    <color name="golden_alpha_60">#99F5B933</color>
+    <color name="user_avtar_default_color">#FFFFFF</color>
+
+    <!-- White Color with Alpha -->
+    <color name="white_alpha_5">#0DFFFFFF</color>
+    <color name="white_alpha_10">#1AFFFFFF</color>
+    <color name="white_alpha_15">#26FFFFFF</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="white_alpha_25">#40FFFFFF</color>
+    <color name="white_alpha_30">#4DFFFFFF</color>
+    <color name="white_alpha_35">#59FFFFFF</color>
+    <color name="white_alpha_40">#66FFFFFF</color>
+    <color name="white_alpha_45">#73FFFFFF</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="white_alpha_55">#8CFFFFFF</color>
+    <color name="white_alpha_60">#99FFFFFF</color>
+    <color name="white_alpha_65">#A6FFFFFF</color>
+    <color name="white_alpha_70">#B3FFFFFF</color>
+    <color name="white_alpha_75">#BFFFFFFF</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+    <color name="white_alpha_85">#D9FFFFFF</color>
+    <color name="white_alpha_90">#E6FFFFFF</color>
+    <color name="white_alpha_95">#F2FFFFFF</color>
+
+    <!-- Black Color with Alpha -->
+    <color name="black_alpha_5">#0D000000</color>
+    <color name="black_alpha_10">#1A000000</color>
+    <color name="black_alpha_15">#26000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_25">#40000000</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="black_alpha_35">#59000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_45">#73000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_55">#8C000000</color>
+    <color name="black_alpha_60">#99000000</color>
+    <color name="black_alpha_65">#A6000000</color>
+    <color name="black_alpha_70">#B3000000</color>
+    <color name="black_alpha_75">#BF000000</color>
+    <color name="black_alpha_80">#CC000000</color>
+    <color name="black_alpha_85">#D9000000</color>
+    <color name="black_alpha_90">#E6000000</color>
+    <color name="black_alpha_95">#F2000000</color>
+</resources>

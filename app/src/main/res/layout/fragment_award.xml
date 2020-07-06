@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:padding="@dimen/size_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy1"
+                    android:src="@drawable/ic_trophy_1">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy1"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward2">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy2"
+                    android:src="@drawable/ic_trophy_2">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy2"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward3">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy3"
+                    android:src="@drawable/ic_trophy_3">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy3"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward4">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy4"
+                    android:src="@drawable/ic_trophy_4">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy4"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_4" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward5">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy5"
+                    android:src="@drawable/ic_trophy_5">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy5"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward6">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy6"
+                    android:src="@drawable/ic_trophy_6">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy6"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_6" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward7">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_above="@+id/txtTrophy7"
+                    android:src="@drawable/ic_trophy_7">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy7"
+                    style="@style/UITextView.TrophyText"
+                    android:text="@string/trophy_range_7" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/TrophyView"
+                android:id="@+id/rltAward8">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/TrophyImage"
+                    android:layout_width="@dimen/size_100"
+                    android:layout_height="@dimen/size_100"
+                    android:layout_above="@+id/txtTrophy8"
+                    android:src="@drawable/ic_trophy_8">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTrophy8"
+                    style="@style/UITextView.TrophyText"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/trophy_range_8" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

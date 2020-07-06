@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lnrAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tic Tac "
+                android:textSize="@dimen/font_size_60"
+                android:fontFamily="@font/source_serif_pro_bold"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bee"
+                android:textSize="@dimen/font_size_60"
+                android:fontFamily="@font/source_serif_pro_bold"
+                android:textColor="@color/golden"/>
+        </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgHoneyBee"
+        android:layout_width="@dimen/size_48"
+        android:layout_height="@dimen/size_48"
+        android:src="@drawable/ic_honey"
+        android:layout_toRightOf="@+id/lnrAppName"
+        android:layout_above="@+id/lnrAppName"
+        android:layout_marginBottom="-24dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgProgress"
+        android:layout_width="@dimen/size_60"
+        android:layout_height="@dimen/size_60"
+        android:layout_marginBottom="@dimen/size_10"
+        android:src="@drawable/ic_no_internet_connection_progress"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

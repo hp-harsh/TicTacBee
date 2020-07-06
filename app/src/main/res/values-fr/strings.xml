@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TicTacBee</string>
+
+    <string name="splash_name">Tic Tac Bee</string>
+
+    <!--Toast messages-->
+    <string name="toast_no_internet">Internet non disponible</string>
+    <string name="toast_press_to_close">Appuyez à nouveau pour quitter l\'application</string>
+    <string name="toast_login_successful">Connexion réussie</string>
+    <string name="toast_login_failed">Erreur de connexion. Veuillez réessayer</string>
+    <string name="toast_register_successful">Enregistré avec succès</string>
+    <string name="toast_register_failed">Erreur d\'enregistrement. Veuillez réessayer</string>
+    <string name="toast_userid_not_available">ID utilisateur non disponible. Veuillez en sélectionner un nouveau</string>
+    <string name="toast_reset_email_sent_successful">Le lien de réinitialisation du mot de passe a été envoyé</string>
+    <string name="toast_reset_email_sent_failed">Erreur lors de l\'envoi du lien de réinitialisation du mot de passe. Veuillez réessayer</string>
+    <string name="toast_logout_successful">Déconnexion réussie</string>
+    <string name="toast_user_profile_updated">Mise à jour réussie</string>
+    <string name="toast_user_profile_update_failed">Erreur dans la mise à jour du profil</string>
+    <string name="toast_user_password_updated">Mot de passe mis à jour avec succès</string>
+    <string name="toast_user_password_update_failed">Erreur dans la mise à jour du mot de passe</string>
+    <string name="toast_user_old_password_failed">Authentification échouée</string>
+    <string name="toast_no_user_found">Aucune abeille trouvée</string>
+    <string name="toast_error_sending_invitation">Erreur lors de l\'envoi de l\'invitation</string>
+    <string name="toast_already_sent_invitation_to_bee">Invitation déjà envoyée à la même abeille ou à une autre abeille</string>
+    <string name="toast_already_have_invitation_to_receiver">L\'abeille adverse a déjà une autre invitation ou joue avec une autre abeille. Veuillez réessayer plus tard</string>
+    <string name="toast_invitation_sent">Invitation envoyée. Veuillez attendre la réponse</string>
+    <string name="toast_chat_not_initiated">Le chat n\'est disponible que lorsque l\'invitation au jeu sera acceptée</string>
+    <string name="toast_play_alone_bee1_win">Abeille 1 gagne le match</string>
+    <string name="toast_play_alone_bee2_win">Abeille 2 gagne le match</string>
+    <string name="toast_play_with_app_you_win">Vous gagnez le jeu</string>
+    <string name="toast_play_with_app_win">L\'application gagne le jeu</string>
+    <string name="toast_play_draw">Son tirage</string>
+    <string name="toast_email_format_wrong">Veuillez vérifier l\'identifiant de l\'e-mail</string>
+    <string name="toast_password_format_wrong">Le mot de passe doit comprendre entre 8 et 20 caractères</string>
+    <string name="toast_username_format_wrong">Le nom d\'utilisateur doit comprendre entre 6 et 20 caractères</string>
+    <string name="toast_user_id_length_wrong">L\'ID utilisateur doit être unique et contenir entre 4 et 15 caractères</string>
+    <string name="toast_user_id_format_wrong">L\'ID utilisateur contient uniquement des caractères alphanumériques et des traits de soulignement</string>
+    <string name="toast_user_id_already_used">ID utilisateur non disponible</string>
+    <string name="toast_opponent_turn">C\'est le tour de l\'adversaire</string>
+    <string name="toast_you_win">Vous gagnez le jeu</string>
+    <string name="toast_opponent_win">Abeille adversaire gagne le match</string>
+    <string name="toast_game_start">Début du jeu</string>
+
+    <!--Alert Dialog-->
+    <string name="alert_quit_message">Voulez-vous quitter le jeu? Vous ne rejoindrez plus cette session.</string>
+    <string name="alert_positive_button_quit">Quitter</string>
+    <string name="alert_negative_button_continue_game">Continuer le jeu</string>
+    <string name="alert_quit_game_title">Quitter le jeu?</string>
+    <string name="alert_quit_game_opponent_message">L\'adversaire a quitté le jeu. Vous ne pouvez pas jouer plus longtemps.</string>
+    <string name="alert_positive_button_opponent_quit_game_">Quitter le jeu</string>
+    <string name="alert_has_declined_game">L\'adversaire a refusé le jeu</string>
+
+    <!--No Internet Connection-->
+    <string name="no_internet_connection_message">Connexion Internet lente ou inexistante.\nVeuillez vérifier vos paramètres Internet</string>
+
+    <!--Login-->
+    <string name="email_id">Identifiant e-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="old_password">ancien mot de passe</string>
+    <string name="new_password">nouveau mot de passe</string>
+    <string name="lets_go">Allons-y</string>
+    <string name="forgot_password"><u>Mot de passe oublié</u></string>
+    <string name="new_bee_register_here"><u>Nouvelle abeille? Inscrivez-vous ici</u></string>
+
+    <!--Register-->
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="user_id">Identifiant d\'utilisateur</string>
+    <string name="register_as_a_bee">S\'inscrire comme abeille</string>
+    <string name="already_bee_login_here"><u>Déjà une abeille? Connectez-vous ici</u></string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password_info">Entrez un e-mail associé à cette application et \n nous vous enverrons toutes les instructions pour réinitialiser le mot de passe</string>
+    <string name="reset_password">réinitialiser le mot de passe</string>
+    <string name="remembered_password_login_here"><u>Se souvenir du mot de passe? Connectez-vous ici</u></string>
+
+    <!--Home-->
+    <string name="play_with_bee">Jouer avec abeille</string>
+    <string name="play_with_app">Jouez avec l\'application</string>
+    <string name="play_alone">Joue seul</string>
+
+    <!--Home-->
+    <string name="update_my_bee">Mettre à jour mon abeille</string>
+    <string name="update_bee_password">Mettre à jour le mot de passe de l\'abeille</string>
+
+    <!--Award-->
+    <string name="trophy_range_1">1 - 10</string>
+    <string name="trophy_range_2">11 - 25</string>
+    <string name="trophy_range_3">26 - 50</string>
+    <string name="trophy_range_4">51 - 100</string>
+    <string name="trophy_range_5">101 - 200</string>
+    <string name="trophy_range_6">201 - 300</string>
+    <string name="trophy_range_7">301 - 500</string>
+    <string name="trophy_range_8">&gt;= 501</string>
+
+    <!--Settings-->
+    <string name="game_character">Personnage de jeu</string>
+    <string name="board_background">Contexte du Conseil</string>
+    <string name="preferred_language">langue préférée</string>
+
+    <!--Invitation-->
+    <string name="request">Demande</string>
+    <string name="invitation">Invitation</string>
+
+    <!--Search-->
+    <string name="search_by_id">Recherche par identifiant d\'abeille</string>
+    <string name="no_data_found">Aucune donnée disponible</string>
+
+    <!--Invitation-->
+    <string name="no_invitation_received">Aucune invitation reçue</string>
+
+    <!--Invitation-->
+    <string name="you">(Tu)</string>
+    <string name="app">App</string>
+
+    <!--Chat-->
+    <string name="type_message">Tapez le message</string>
+    <string name="no_chat_history">Pas encore de conversation</string>
+
+    <!--Play-->
+    <string name="bee1">Abeille 1</string>
+    <string name="bee2">Abeille 2</string>
+
+</resources>
